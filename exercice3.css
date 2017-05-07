@@ -1,0 +1,22 @@
+table
+{
+border-collapse: collapse;
+text-align: center;
+font-family: georgia;
+font-size: 15px;
+line-height: 40px;
+width: 40%;
+}
+td, th
+{
+border: 1px solid black;
+text-align: left;
+}
+th
+{
+  text-align: center;
+}
+thead, tfoot
+{
+  text-align: center;
+}

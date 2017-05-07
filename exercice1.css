@@ -1,0 +1,14 @@
+table
+{
+border-collapse: collapse;
+text-align: center;
+font-family: georgia;
+font-size: 15px;
+line-height: 30px;
+width: 20%;
+}
+td, th
+{
+border: 1px solid black;
+text-align: center;
+}

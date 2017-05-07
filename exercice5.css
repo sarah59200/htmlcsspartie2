@@ -1,0 +1,9 @@
+table, th,td
+{
+border-collapse: collapse;
+text-align: center;
+font-family: georgia;
+font-size: 15px;
+border: black solid 1px;
+padding: 1em;
+}

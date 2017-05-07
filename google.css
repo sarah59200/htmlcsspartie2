@@ -1,0 +1,23 @@
+
+  #header4
+  {
+    height:0px;
+    position:absolute;
+    bottom:-350px;
+    width:1000%;
+    padding-bottom: -100;
+    height:60px;
+    color: grey;
+    background:#F2F2F2; /* sa ces le footer qui vien tout en bas de la page*/
+  }
+
+#mots
+{
+  float: right;
+}
+
+.barre
+{
+  height: 30px;
+  width: 600px;
+}

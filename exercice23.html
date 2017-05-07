@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="exercice22.css">
+    <meta charset="utf-8">
+    <title>exercice22</title>
+  </head>
+  <body>
+  <form  id="formulaire" method="post" action="traitement.php">
+    Pseudo:
+    <p><input id="pseudo" type="pseudo" autofocus required/></p>
+    Password:
+    <p><input name="password"  maxlength="20" required></p>
+    Age:
+    <p><input id="mon-nombre" type="number" min="18" max="40" /></p>
+    Séléctionner vos qualités:
+    <p><input type="checkbox" name="qualité" id="qualité"/> <label for="qualité">sérieux</label></p>
+    <p><input type="checkbox" name="qualité" id="qualité"/> <label for="qualité">jovial</label></p>
+    <p><input type="checkbox" name="qualité" id="qualité"/> <label for="qualité">ponctuel</label></p>
+    <p><input type="checkbox" name="qualité" id="qualité"/> <label for="qualité">rigoureux</label></p>
+    <p><input type="checkbox" name="qqualité" id="qualité"/> <label for="qualité">drôle</label></p>
+    Travail à la maison:
+    <p><input type="radio" name="travail" id="travail"/> <label for="travail">oui</label></p>
+    <p><input type="radio" name="travail" id="travail"/> <label for="travail">non</label></p>
+    <label for="message">Message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30">tapez votre message ici</textarea><br />
+    <center><input type="submit" value="envoyer"></center></form>
+    </label>
+</form>
+</body>
+</html>

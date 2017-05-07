@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="exercice22.css">
+    <meta charset="utf-8">
+    <title>exercice22</title>
+  </head>
+  <body>
+  <form  id="formulaire" method="post" action="traitement.php">
+    Name:
+    <p><input id="name" type="" autofocus required/></p>
+    Email:
+    <p><input name="password"></p>
+    Age:
+    <p><input id="mon-nombre" type="number" /></p>
+    <label for="message">Message:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30">tapez votre message ici</textarea><br />
+    Choisissez une ou plusieurs langues:
+    <p><input type="checkbox" name="qualité" id="qualité" checked/> <label for="qualité">Anglais</label></p>
+    <p><input type="checkbox" name="qualité" id="qualité"/> <label for="qualité">Espagnol</label></p>
+    <p><input type="checkbox" name="qualité" id="qualité"/> <label for="qualité">Italien</label></p>
+    Choisissez votre niveau:
+    <p><input type="radio" name="travail" id="travail" checked/> <label for="travail">débutant</label></p>
+    <p><input type="radio" name="travail" id="travail"/> <label for="travail">bon</label></p>
+    <p><input type="radio" name="travail" id="travail"/> <label for="travail">confirmé</label></p>
+
+    <center><input type="submit" value="envoyer"></center></label>
+</form>
+</body>
+</html>
